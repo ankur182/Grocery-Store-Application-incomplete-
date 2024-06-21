@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Order - Grocery Store Management System</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2>Delete Order</h2>
+        <form id="deleteOrderForm">
+            <div class="form-group">
+                <label for="orderNumber">Order Number:</label>
+                <input type="text" class="form-control" id="orderNumber" name="orderNumber" required>
+            </div>
+            <div class="form-group">
+                <label for="orderAmount">Amount:</label>
+                <input type="text" class="form-control" id="orderAmount" name="orderAmount" required>
+            </div>
+            <button type="submit" class="btn btn-danger">Delete Order</button>
+        </form>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Your custom JavaScript -->
+    <script src="delete.js"></script>
+</body>
+</html>
