@@ -25,6 +25,7 @@ Key Insights
 
 🧠 Tools like MySQL Workbench and data modeling software aid in visualizing and planning database structures, facilitating collaborative development efforts.
 
+![Screenshot 2024-06-22 010820](https://github.com/ankur182/Grocery-Store-Application/assets/98750453/a263ead5-c682-40ae-bd2c-a6a09c1f068f)
 
 Day(5-10) PRODUCTS BACKEND
 
@@ -60,6 +61,9 @@ Utilizing global variables and functions enhances code organization and readabil
 
 Leveraging online resources like Google and w3schools.com can provide valuable insights and solutions for coding challenges 🌐
 
+![Screenshot 2024-06-22 011112](https://github.com/ankur182/Grocery-Store-Application/assets/98750453/197a0b0f-0da4-4d53-88b4-26871c415f41)
+
+![Screenshot 2024-06-22 005817](https://github.com/ankur182/Grocery-Store-Application/assets/98750453/2678116f-fab2-4804-8edc-c239236cb417)
 Day(10-15) PRODUCTS FRONTEND
 
 
@@ -82,6 +86,7 @@ It demonstrates the process of retrieving product data from the database using P
 The tutorial illustrates the functionality of adding new products to the database through the UI, emphasizing the need for data validation and error handling during the insertion process. ✨
 
 By showcasing the process of deleting products from the database after a user confirmation, the tutorial highlights the importance of user experience and data integrity in application development. 🚫
+![Screenshot 2024-06-22 005905](https://github.com/ankur182/Grocery-Store-Application/assets/98750453/36369756-77e8-4592-8034-910a4a2b7b49)
 
 Day(15-20) INSERT ORDER FUNCITONALITY
 
@@ -119,6 +124,9 @@ Identifying and fixing bugs, such as updating the grand total on price changes, 
 
 Providing clear instructions and exercises for further learning and skill development enhances the educational value of the tutorial. 📚
 
+![Screenshot 2024-06-22 005958](https://github.com/ankur182/Grocery-Store-Application/assets/98750453/0874e056-5496-490d-84eb-3978864d6f85)
+
+![Screenshot 2024-06-22 010102](https://github.com/ankur182/Grocery-Store-Application/assets/98750453/2058165a-98a8-4142-87d2-3498d1f63112)
 Day (20-25) LIST ORDERS
 Highlights
 
@@ -157,4 +165,36 @@ developers can personalize the application and gain a deeper understanding of we
 holistic view of application development and gain practical experience in building scalable and functional applications. This tutorial serves as a foundational resource for aspiring developers looking to enhance 
 their skills in web development.🌟
 
+![Screenshot 2024-06-22 010143](https://github.com/ankur182/Grocery-Store-Application/assets/98750453/a9e38d1b-2261-4e07-a216-33c0f1953102)
 Day(25+) DELETE THE DATA FROM FRONTEND
+
+
+Highlights
+
+
+Implementation of a frontend feature to delete data from the database.
+
+User-friendly interface with a delete order button.
+
+Confirmation process to verify deletion details.
+
+Backend validation to ensure correct data deletion.
+
+Feedback mechanism to notify users of successful deletion.
+
+Integration of deletion functionality with existing order management features.
+
+Key Insights
+
+User Interface Design: Designing an intuitive interface with a clear "Delete Order" button helps users easily initiate the deletion process.
+
+Confirmation Mechanism: Implementing a confirmation dialog ensures users confirm their intent before data deletion, preventing accidental deletions.
+
+Backend Validation: Validating deletion details on the backend (such as order number and amount) ensures data integrity and prevents unauthorized deletions.
+
+Error Handling: Providing informative feedback messages for users in case of deletion errors or incorrect inputs enhances user experience and reduces frustration.
+
+Audit Trail: Consider logging deletion activities for auditing purposes, ensuring accountability and traceability of data modifications.
+
+Security Considerations: Implementing security measures, such as authentication and authorization checks, to restrict access to deletion functionalities based on user roles.
+
